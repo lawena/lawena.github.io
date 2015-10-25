@@ -1,0 +1,27 @@
+# Dependencies
+markdown:            redcarpet
+highlighter:         pygments
+
+# Permalinks
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               'Lawena Recording Tool'
+tagline:             'Simple recording tool for Source games'
+description:         'Improves the movie recording process in TF2 and other Source engine games.'
+url:                 http://lawena.github.io
+baseurl:             '/'
+paginate:            5
+
+# About/contact
+author:
+  name:              Quantic
+  url:               http://steamcommunity.com/profiles/76561198012092861/
+
+# GitHub repository
+github:
+  repo:              https://github.com/iabarca/lawena-recording-tool
+
+gitter:              https://gitter.im/iabarca/lawena-recording-tool
+analytics_id:        UA-41559116-6
