@@ -3,6 +3,11 @@ layout: page
 title: Instructions
 ---
 
+<div class="message">
+  This page is present in the <a href="{{ site.github.repo }}/wiki">Wiki</a>. Check it out for more in-depth articles.
+</div>
+
+
 ## Installation and use
 
 * Make sure you have [latest Java](https://java.com/download/) installed
@@ -14,10 +19,12 @@ title: Instructions
 * Start TF2, Lawena will make a backup of your ``cfg`` and ``custom`` folder while TF2 is running
 * Load a demo and press P to start recording. Please note that you might hear buggy or repeating sounds. This is expected and it won't be corrupted in the resulting audio file so don't worry.
 * When you close TF2, your files should be restored (there should be no ``lwrt`` folders inside your ``tf`` folder)
+* To compile your captured frames to a video file, head over to this [Wiki page](https://github.com/iabarca/lawena-recording-tool/wiki/Synchronize-audio-and-video).
+* The resulting file can be passed through an encoding tool or a video editing program.
 
 ## Adding custom resources
 
- * This version will detect all VPKs and folders inside your ``tf/custom`` folder, so just by having your files there you'll have the option to load them when Lawena launches TF2
+ * This version will detect all VPKs and folders inside your ``tf/custom`` folder, so just by having your files there you'll have the option to load them when Lawena launches TF2s
  * You can also use the ``custom`` folder of Lawena , where some default VPK were included to show you how it works
  * If you select your custom HUD in the custom resources list, you'll have to select "Custom" as your selected HUD option or there could be conflicts
  * If you want to add extra skyboxes, put the ``.vtf`` files (not the ``.vmt``) inside the ``skybox`` folder of Lawena and it will load along the included

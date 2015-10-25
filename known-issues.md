@@ -3,6 +3,10 @@ layout: page
 title: Known Issues
 ---
 
+<div class="message">
+  This page is present in the <a href="{{ site.github.repo }}/wiki">Wiki</a>. Check it out for more in-depth articles.
+</div>
+
 ## About this page
 
 This is a list of **known limitations and problems** while using Lawena Recording Tool. All of them come with a workaround of varying complexity. It is divided in the following categories:
