@@ -27,7 +27,7 @@ Easy to install and use. Does not interfere with your regular configs, HUD or la
 
 ## Installing Lawena
 
-Go to **Download** in the sidebar. Simply get the stable zip release, extract it and run **Lawena.exe**.
+Go to **Download** in the sidebar and follow the instructions. If you don't have Java installed you will find a direct download link there.
 
 ## Credits
 
