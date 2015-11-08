@@ -10,7 +10,7 @@ title: Instructions
 
 ## Installation and use
 
-* Make sure you have [latest Java](https://java.com/download/) installed
+* Check the **Download** page for a direct link to Java install and Lawena archive.
 * Extract the ``.zip`` to a clean folder
 * Run ``lawena.exe``, the updater should run and it will automatically launch the tool
 * Your TF2 directory should be auto-detected (you can always change it from the "File" menu in the UI)
