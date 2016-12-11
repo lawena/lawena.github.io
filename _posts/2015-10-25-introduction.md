@@ -21,7 +21,7 @@ Easy to install and use. Does not interfere with your regular configs, HUD or la
 * Allows custom commands for extra tweaks not present in the tool
 * Includes a set of built-in skyboxes, and supports custom ones via simple drag-and-drop
 * [SrcDemo2](http://code.google.com/p/srcdemo2/) support to reduce drive usage and space and increase recording speed
-* [VDM](https://developer.valvesoftware.com/wiki/Demo_Recording_Tools) file support for automatic movie recording process. Check the [tutorial](https://github.com/iabarca/lawena-recording-tool/wiki/VDM-tutorial)
+* [VDM](https://developer.valvesoftware.com/wiki/Demo_Recording_Tools) file support for automatic movie recording process. Check the [tutorial](https://github.com/quanticc/lawena-recording-tool/wiki/VDM-tutorial)
 * Creates backups in case something goes wrong
 * Automatic updates
 

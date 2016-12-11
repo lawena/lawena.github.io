@@ -19,7 +19,7 @@ title: Instructions
 * Start TF2, Lawena will make a backup of your ``cfg`` and ``custom`` folder while TF2 is running
 * Load a demo and press P to start recording. Please note that you might hear buggy or repeating sounds. This is expected and it won't be corrupted in the resulting audio file so don't worry.
 * When you close TF2, your files should be restored (there should be no ``lwrt`` folders inside your ``tf`` folder)
-* To compile your captured frames to a video file, head over to this [Wiki page](https://github.com/iabarca/lawena-recording-tool/wiki/Synchronize-audio-and-video).
+* To compile your captured frames to a video file, head over to this [Wiki page](https://github.com/quanticc/lawena-recording-tool/wiki/Synchronize-audio-and-video).
 * The resulting file can be passed through an encoding tool or a video editing program.
 
 ## Adding custom resources
@@ -41,4 +41,4 @@ title: Instructions
 1. Tell me about it in GitHub issues/Steam
 
 * Check the **FAQ** for more info!
-* Please report any [issue](https://github.com/iabarca/lawena-recording-tool/issues) you might find. Also you can use that same page to suggest new features.
+* Please report any [issue](https://github.com/quanticc/lawena-recording-tool/issues) you might find. Also you can use that same page to suggest new features.

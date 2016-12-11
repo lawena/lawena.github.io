@@ -18,7 +18,7 @@ Try the following until it's fixed:
 * Go to your Steam library and Validate your game cache (you might have a default file missing)
 * Watch your demo using ``mat_queue_mode 1`` in your console (fixes multithreading issues)
 * Temporarily rename or remove the ``recording.cfg`` file inside Lawena folder before running the game. Crashes might be related to graphic configuration set by that cfg file.
-* Come to our [chat](https://gitter.im/iabarca/lawena-recording-tool) and let me know about it, or report an [issue](https://github.com/iabarca/lawena-recording-tool/issues) with the ``lawena.log`` file that the tool created and we'll figure it out together.
+* Come to our [chat](https://gitter.im/iabarca/lawena-recording-tool) and let me know about it, or report an [issue](https://github.com/quanticc/lawena-recording-tool/issues) with the ``lawena.log`` file that the tool created and we'll figure it out together.
 
 ### Lawena is not replacing my cfg and/or HUD files correctly, and I'm getting an ``AccessDeniedException`` in the log! What's wrong?
 

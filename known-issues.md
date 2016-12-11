@@ -18,15 +18,15 @@ This is a list of **known limitations and problems** while using Lawena Recordin
 
 ### Avoidable
 
-* Selecting your own files ending in ``*.cfg`` to load into TF2 can cause loss of recording quality and lawena's keybindings due to setting conflicts. See [#10](https://github.com/iabarca/lawena-recording-tool/issues/10)
-* Choosing a movie/recording folder with special characters like brackets, exclamation points or accents might confuse Source Recorder and Lawena itself and not save any frames. Use simpler path names. See [#63](https://github.com/iabarca/lawena-recording-tool/issues/63)
-* Demos don't work if they have spaces in their names and you load them with demoui. This is also true for folder names. Load them via console using ``playdemo`` instead. See [#58](https://github.com/iabarca/lawena-recording-tool/issues/58)
+* Selecting your own files ending in ``*.cfg`` to load into TF2 can cause loss of recording quality and lawena's keybindings due to setting conflicts. See [#10](https://github.com/quanticc/lawena-recording-tool/issues/10)
+* Choosing a movie/recording folder with special characters like brackets, exclamation points or accents might confuse Source Recorder and Lawena itself and not save any frames. Use simpler path names. See [#63](https://github.com/quanticc/lawena-recording-tool/issues/63)
+* Demos don't work if they have spaces in their names and you load them with demoui. This is also true for folder names. Load them via console using ``playdemo`` instead. See [#58](https://github.com/quanticc/lawena-recording-tool/issues/58)
 * Lawena always saves your settings, however if you make a change to an editable input box and close the program immediately, it might not get saved due to the control never losing cursor focus (and therefore saving changes).
-* Classic Windows 7 interface (not Aero) does not work well with Lawena's current GUI. Use Aero instead. Sorry for the inconvenience. See [#34](https://github.com/iabarca/lawena-recording-tool/issues/34)
+* Classic Windows 7 interface (not Aero) does not work well with Lawena's current GUI. Use Aero instead. Sorry for the inconvenience. See [#34](https://github.com/quanticc/lawena-recording-tool/issues/34)
 
 ### Uncertain solution
 
-* The maxquality graphics config used might cause more crashes than normal when playing demos. Try ``mat_queue_mode 1`` first and then try to workaround it using another graphics config for the game. See [#52](https://github.com/iabarca/lawena-recording-tool/issues/52)
+* The maxquality graphics config used might cause more crashes than normal when playing demos. Try ``mat_queue_mode 1`` first and then try to workaround it using another graphics config for the game. See [#52](https://github.com/quanticc/lawena-recording-tool/issues/52)
 
 ### Manual fix required
 
@@ -36,4 +36,4 @@ This is a list of **known limitations and problems** while using Lawena Recordin
 ### Mostly fixed
 
 * Custom HUDs can trigger a "Failed to restore files" due to Windows locking a custom font file. In case your custom files somehow get misplaced and disappear upon restoring, there are backup archives of your custom files in your ``tf`` folder named lawena-user._timestamp_.bak.zip. **Update:** Recent Lawena versions fix this by installing custom fonts found on your chosen HUD before launching the game. If this causes visual glitches, uninstall the fonts and disable the option from the Advanced menu.
-* Even though on latest versions this problem seems fixed, avoid extracting Lawena to the game folder (like TF2's "tf" directory). See [#25](https://github.com/iabarca/lawena-recording-tool/issues/25)
+* Even though on latest versions this problem seems fixed, avoid extracting Lawena to the game folder (like TF2's "tf" directory). See [#25](https://github.com/quanticc/lawena-recording-tool/issues/25)
