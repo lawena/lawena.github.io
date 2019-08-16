@@ -11,6 +11,17 @@ title: FAQ
 
 It is possible that the P bind is lost due to own scripts or demos (since they record all commands you use). So please rebind the key using the console by typing ``bind p startrecording`` and it should work fine.
 
+### How to create a symlink for recording
+
+You should
+1. Go to tf dir
+2. Open powershell as administrator
+3. Type cmd
+4. Enter mklink /D Lawena X:\Path\To\Target\Folder
+It will create a link under tf dir called "Lawena". Folder should have a shortcut icon
+
+or if you use http://schinagl.priv.at/nt/hardlinkshellext/linkshellextension.html you can right-click X:\Path\To\Target\Folder (target) folder and select "Pick Link Source" and then go to tf dir and right-click to select "Drop As..." -> "Symbolic Link"
+
 ### TF2 is crashing when it's run from the tool! What can I do?
 
 Try the following until it's fixed:
